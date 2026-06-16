@@ -290,3 +290,4 @@ foreach ($queues as $q) {
         document.getElementById('addQueueModal').style.display = 'none';
     }
 </script>
+ 

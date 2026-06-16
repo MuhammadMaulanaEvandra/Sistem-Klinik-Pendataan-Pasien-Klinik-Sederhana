@@ -315,7 +315,6 @@ if ($type === 'antrean') {
   .meta-table td:first-child { width: 160px; font-weight: 600; }
   .meta-table td:nth-child(2) { width: 10px; }
 
-  
   .sec-heading {
     font-size: 11pt;
     font-weight: 700;

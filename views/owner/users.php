@@ -1,9 +1,7 @@
 <?php
 
-
 $success_msg = '';
 $error_msg = '';
-
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && $_GET['action'] === 'add_user') {
     $username = isset($_POST['username']) ? trim($_POST['username']) : '';

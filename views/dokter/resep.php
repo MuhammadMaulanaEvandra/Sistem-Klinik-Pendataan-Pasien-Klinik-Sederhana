@@ -1,6 +1,5 @@
 <?php
 
-
 $patient_id = isset($_GET['patient_id']) ? $_GET['patient_id'] : 'PX-2023-0891';
 
 

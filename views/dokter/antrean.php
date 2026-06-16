@@ -175,3 +175,4 @@ $menunggu_count = count($waiting_patients);
     100% { transform: scale(1); opacity: 1; }
 }
 </style>
+ 

@@ -255,4 +255,4 @@ foreach ($patients as $p) {
     function closeAddPatientModal() {
         document.getElementById('addPatientModal').style.display = 'none';
     }
-</script>
+</script> 

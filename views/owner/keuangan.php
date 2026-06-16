@@ -61,6 +61,7 @@ function format_indo_date($date_str, $include_time = true) {
     return "$day $month_name $year";
 }
 
+
 $first_date = 'N/A';
 $last_date = 'N/A';
 if (!empty($payments)) {

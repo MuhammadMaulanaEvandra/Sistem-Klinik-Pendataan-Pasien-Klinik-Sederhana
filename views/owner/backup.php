@@ -8,7 +8,6 @@ $queues    = $_SESSION['queues']    ?? [];
 $stock_logs = $_SESSION['stock_logs'] ?? [];
 $referrals  = $_SESSION['referrals']  ?? [];
 
-
 $selected_month = isset($_GET['month']) ? (int)$_GET['month'] : (int)date('m');
 $selected_year  = isset($_GET['year'])  ? (int)$_GET['year']  : (int)date('Y');
 if ($selected_month < 1 || $selected_month > 12) $selected_month = (int)date('m');

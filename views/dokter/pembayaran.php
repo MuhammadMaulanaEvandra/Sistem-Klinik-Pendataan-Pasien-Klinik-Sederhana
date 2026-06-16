@@ -1,7 +1,6 @@
 <?php
 
 
-
 $success_msg = '';
 if (isset($_GET['action']) && $_GET['action'] === 'pay' && isset($_GET['id'])) {
     $trx_id = $_GET['id'];

@@ -1,11 +1,6 @@
 <?php
 
-
-
 $success_msg = '';
-
-            
-
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && $_GET['action'] === 'new_drug') {
     $name = isset($_POST['name']) ? trim($_POST['name']) : '';

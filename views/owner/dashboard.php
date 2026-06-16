@@ -307,3 +307,4 @@ foreach ($category_totals as $cat => $val) {
         </div>
     </div>
 </div>
+ 

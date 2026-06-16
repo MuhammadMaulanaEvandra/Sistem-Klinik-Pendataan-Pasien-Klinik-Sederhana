@@ -451,3 +451,4 @@ if (empty($avatar_initials)) {
         }
     }
 </script>
+

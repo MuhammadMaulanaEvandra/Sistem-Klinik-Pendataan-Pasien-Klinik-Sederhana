@@ -3,7 +3,6 @@
 
 $stock_logs = $_SESSION['stock_logs'];
 
-
 $type_filter = isset($_GET['type_filter']) ? $_GET['type_filter'] : '';
 $filtered_logs = [];
 foreach ($stock_logs as $log) {

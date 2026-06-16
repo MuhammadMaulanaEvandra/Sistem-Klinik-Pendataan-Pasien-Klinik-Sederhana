@@ -256,3 +256,4 @@ $vitals = ($patient !== null) ? ($patient['vitals'] ?? [
     </div>
 </div>
 <?php endif; ?>
+ 
